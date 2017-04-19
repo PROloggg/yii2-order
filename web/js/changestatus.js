@@ -29,6 +29,9 @@ pistol88.changestatus = {
                 }
 
             }, "json");
+
+        let modalOperatorka = window.parent.document.getElementById('operatorkaModal');
+        jQuery(modalOperatorka).find('.close').click();
         
         return false;
     },
